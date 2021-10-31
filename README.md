@@ -9,6 +9,14 @@ INCLUDE Irvine32.inc
 s dword ?
 d dword ?
 char byte "c"
+INCLUDE Irvine32.inc
+.data
+s dword ?
+INCLUDE Irvine32.inc
+.data
+s dword ?
+d dword ?
+char byte "c"
   string BYTE "Enter age",0
   msg byte "eligible",0
   msg2 byte "not eligible",0
